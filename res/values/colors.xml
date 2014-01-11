@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#900</color>
+    <color name="green">#090</color>
+    <color name="blue">#009</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+ 	
+    <!-- new -->
+    <color name="frame_button_text_nor">#033a5c</color>
+    <color name="frame_button_text_select">#FFFFFF</color>
+    <color name="listitem_transparent">#00000000</color>
+</resources>

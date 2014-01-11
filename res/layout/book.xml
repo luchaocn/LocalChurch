@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="35.0dip"
+		android:orientation="horizontal" 
+		android:gravity="center_vertical">
+     	<Button 
+     		android:id="@+id/frame_btn_news_lastest"
+     		style="@style/frame_button"
+         	android:text="qqqq"/>
+     	<ImageView 
+     		android:layout_width="wrap_content" 
+     		android:layout_height="fill_parent" 
+     		android:background="@drawable/frame_button_cutline"/>
+     	<Button 
+     		android:id="@+id/frame_btn_news_blog"
+     		style="@style/frame_button"
+         	android:text="wwww"/>
+    </LinearLayout>
+ 
+	<org.xslife.LocalChurch.widget.PullToRefreshListView
+	  	android:id="@+id/lvRemoteBook"
+	    style="@style/widget_listview"/>
+
+	<org.xslife.LocalChurch.widget.PullToRefreshListView
+	  	android:id="@+id/lvLocalBook"
+	    style="@style/widget_listview"
+	    android:visibility="gone"/>
+</LinearLayout>
